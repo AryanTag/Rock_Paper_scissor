@@ -12,7 +12,7 @@
 	padding:1px 10px;
 	text-decoration:none;
   position: absolute;
-  top: 76.5%;
+  top: 76.2%;
   left: 91%;
   z-index: 1;
 }
@@ -91,10 +91,11 @@ body{
 }
 .play{
   color: var(--yellow);
-  position: relative;
-  left: 75%;
+  position: absolute;
+  right: 5%;
+  left: auto;
   font-size: 4rem;
-  bottom: 27px;
+  bottom: 12%;
   width: 20%;
 
   z-index: 0.5;
@@ -155,8 +156,10 @@ h3{
 	}
 	.play
 	{
-		left: 60%;
-		top: 25%;
+		left: auto;
+    right: 11%;
+		bottom: 8%;
+    top: auto;
 		font-size: 2rem;
 		width: 30%;
 	}
