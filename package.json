@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Rock Paper Scissors Game",
+  "main": "server.js",
+  "author": "Aryan and Prakhar",
+  "license": "ISC"
+}

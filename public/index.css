@@ -1,0 +1,315 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+    }
+:root {
+  --yellow: #ffb801;
+  --blue: #185adb;
+}
+
+#player-score{
+  position: absolute;
+  color: var(--blue);
+  font-family: Koulen;
+  font-size: 11rem;
+  left: 82%;
+  top: 3%;
+}
+#comp-score{
+  position: absolute;
+  color: var(--yellow);
+  font-family: Koulen;
+  font-size: 11rem;
+  left: 10%;
+  bottom: 2%;
+}
+
+.hide{
+  display: none;
+  z-index: 2;
+  position: absolute;
+}
+
+.loading_circle{
+  position: absolute;
+  left: 9%;
+  top: 3%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: absolute;
+  z-index: 0.69; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0, 0.5); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: var(--yellow);
+  position: absolute;
+  width: auto;
+  height: 200px;
+  top: 32%;
+  left: 35%;
+  padding-right: 5%;
+  padding-top: 4%;
+  padding-left: 5%;
+  border-radius: 8px;
+  font-size: 5rem;
+  color: var(--blue);
+  font-family: Koulen;
+}
+
+/* The Close Button */
+.close {
+  color: var(--blue);
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.reload {
+  background:linear-gradient(to bottom, var(--blue) 5%, var(--blue) 100%);
+	background-color:var(--blue);
+	border-radius:6px;
+	border:1px solid var(--blue);
+	display:inline-block;
+	color:white;
+	font-family:Koulen;
+	font-size:18px;
+  font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+  font-family: Koulen;
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  z-index: 1;
+  letter-spacing: 0.3rem;
+}
+.aalu{
+  border-radius: 8px;
+}
+.VS{
+  position: relative;
+  bottom: 64.35px;
+  left: 45%;
+  height: 140px;
+  width: auto;
+  z-index: 0.420;
+}
+canvas
+{
+  position:absolute;
+  width: 29%;
+  height: auto;
+  left: 4%;
+  top: 4%;
+  border-radius: 8px;
+}
+video
+{
+  width: 29%;
+  height: auto;
+  position: absolute;
+  left: 4%;
+  top: 4%;
+  border-radius: 8px;
+}
+.removed{
+  visibility: hidden;
+}
+.confetti{
+  position: absolute;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  height: 100%;
+}
+a{
+  text-decoration: none;
+}
+.sad{
+    width: 600px;
+    height: 600px;
+}
+.myButton {
+  background:linear-gradient(to bottom, var(--blue) 5%, var(--blue) 100%);
+	background-color:var(--blue);
+	border-radius:6px;
+	border:1px solid var(--blue);
+	display:inline-block;
+	color:white;
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	padding:11px 24px;
+	text-decoration:none;
+  font-family: Koulen;
+  position: absolute;
+  top: 40%;
+  left: 12%;
+  z-index: 1;
+  letter-spacing: 0.3rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, var(--blue) 5%, var(--blue) 100%);
+	background-color:var(--blue);
+}
+.your-score{
+  color: var(--blue);
+  position: absolute;
+  top: 5%;
+  right: 10%;
+  font-size: 2rem;
+  font-family: Koulen;
+}
+.compu-score{
+  color: var(--yellow);
+  position: absolute;
+  bottom: 5%;
+  left: 6.5%;
+  font-size: 2rem;
+  font-family: Koulen;
+}
+.yellow{
+  position: absolute;
+  background-color: var(--yellow);
+  color: var(--yellow);
+  height: 50%;
+  width: 100%;
+}
+.blue{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  background-color: var(--blue);
+  height: 50%;
+}
+body{
+  height: 100%;
+}
+.comp-hand{
+  position: absolute;
+  height: 300px;
+  width: auto;
+  position: absolute;
+  right: 5%;
+  bottom: 8%;
+  border-radius: 8px;
+}
+.mobilepop{
+  display: none;
+}
+
+@media (max-width: 500px)
+{
+  .mobilepop{
+    display: block;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+    z-index: 3;
+  }
+  .myButton
+  {
+    font-size:18px;
+    top: 45%;
+    left: 25%;
+  }
+  #player-score
+  {
+    right: auto;
+    left: 5%;
+    top: 0%;
+    font-size: 5rem;
+  }
+  .your-score{
+    right: 3%;
+    top: 10%;
+  }
+  .VS{
+    /* height: 100px;
+    bottom: 46px;
+      left: 38%; */
+      display: none;
+  }
+  #comp-score{
+    font-size: 5rem;
+    bottom: 0%;
+    right: 5%;
+    left: auto;
+
+  }
+  .compu-score{
+    left: 3%;
+    bottom: 9%;
+  }
+  canvas{
+    width: 80%;
+    height: auto;
+    top: 30%;
+    left: 10%;
+align-items: center;
+  }
+  video{
+    width: 80%;
+    height: auto;
+    top: 30%;
+    left: 10%;
+    align-items: center;
+  }
+  .comp-hand{
+    height: 200px;
+    width: auto;
+    position: absolute;
+    left: 8%;
+    bottom: 30%;
+    border-radius: 8px;
+  }
+  .loading_circle{
+    top: 8%;
+    left: 13%;
+  }
+  .modal-content
+  {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.3rem;
+    height: 100px;
+  }
+  .confetti{
+    height: 700px;
+  }
+  .sad{
+    height: 300px;
+    width: auto;
+    top: 0%;
+  }
+  
+}
