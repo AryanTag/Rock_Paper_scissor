@@ -2,6 +2,10 @@
 To play visit - https://rock-paper-scissor-ml.herokuapp.com/
 
 
+
+https://user-images.githubusercontent.com/77772515/176988339-e7787008-dd84-4aa9-84c8-3fb8d20ea321.mp4
+
+
 The good old hand game with a tech twist. 
 Here’s Rock, Paper & Scissor with ML. 
 
