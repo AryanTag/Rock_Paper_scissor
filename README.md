@@ -3,10 +3,8 @@ To play visit - https://rock-paper-scissor-ml.herokuapp.com/
 
 
 
-<video width="320" height="240" controls>
-  <source src="rps.mp4" type="video/mp4">
-  DEMO VIDEO
-</video>
+https://user-images.githubusercontent.com/77772515/176988440-02add286-b4aa-4b66-babd-c318bbca7bac.mp4
+
 
 
 The good old hand game with a tech twist. 
