@@ -4,7 +4,7 @@ To play visit - https://rock-paper-scissor-ml.herokuapp.com/
 
 
 <video width="320" height="240" controls>
-  <source src="rps.mp4" type="video/mp4">
+  <source src="rps.mp4">
 </video>
 
 
